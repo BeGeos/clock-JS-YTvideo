@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: min(90%, 540px);
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  min-width: 100%;
+}
+
+.hour-container,
+.minute-container,
+.second-container {
+  display: flex;
+  font-size: 48px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.hour-time,
+.minute-time,
+.second-time {
+  border-right: 4px solid white;
+  padding-right: 20px;
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+  height: 40px;
+  max-width: 400px;
+}
+
+.hour-hand {
+  background-color: rgb(21, 180, 253);
+}
+.minute-hand {
+  background-color: rgb(95, 204, 255);
+}
+.second-hand {
+  background-color: rgb(165, 227, 255);
+}
