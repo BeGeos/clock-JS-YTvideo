@@ -1,3 +1,5 @@
+[build]
+
 [[redirects]]
 from = "/public/*"
 to = "/dist/public/:splat"
