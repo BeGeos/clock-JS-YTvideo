@@ -1,5 +1,5 @@
 [[redirects]]
 from = "/public/*"
-to = "/build/public/:splat"
+to = "/dist/public/:splat"
 status = 200
 #  force = true
